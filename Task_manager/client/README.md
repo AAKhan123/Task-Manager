@@ -149,7 +149,7 @@ After logging in, you’ll land on the tasks page where you can:
 - Ensure your credentials match a user in the `users` collection in MongoDB for a smooth experience.
 
 ## Deployment on Vercel
-This project is deployed on Vercel. Access the live application here: [https://your-task-manager.vercel.app](https://your-task-manager.vercel.app).
+This project is deployed on Vercel. Access the live application here: [https://task-manager-tbuy-five.vercel.app/login].
 
 ## Environment Variables
 | Variable       | Description                        | Example Value                              |
