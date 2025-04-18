@@ -1,0 +1,133 @@
+.tasks-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .tasks-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .tasks-filter {
+    margin: 2rem 0;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .filter-input,
+  .filter-select {
+    padding: 0.8rem;
+    border: 1px solid #4b5563;
+    border-radius: 0.25rem;
+    background-color: #100322;
+    color: white;
+    font-weight: 800;
+  }
+  
+  .filter-input {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .filter-select {
+    min-width: 160px;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.5em;
+  }
+  
+  .filter-input:focus,
+  .filter-select:focus {
+    outline: none;
+    border-color: #6b7280;
+    background-color: rgb(153, 10, 65);
+  }
+  
+  .tasks-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .tasks-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .tasks-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .task-card {
+    padding: 1rem;
+    background-color: #dfae0f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+  }
+  
+  .task-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .task-description {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .task-info {
+    margin-bottom: 0.25rem;
+    font-size: medium;
+    font-weight: 400;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .task-actions {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    font-size: large;
+    font-weight: 800;
+  }
+  
+  .task-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .task-button-edit {
+    color: #2563eb;
+  }
+  
+  .task-button-edit:hover {
+    color: #1d4ed8;
+  }
+  
+  .task-button-delete {
+    color: #dc2626;
+  }
+  
+  .task-button-delete:hover {
+    color: #b91c1c;
+  }
+  
+  .task-button-mark {
+    color: #16a34a;
+  }
+  
+  .task-button-mark:hover {
+    color: #15803d;
+  }

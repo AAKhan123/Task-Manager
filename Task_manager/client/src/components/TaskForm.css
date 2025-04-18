@@ -1,0 +1,74 @@
+body{
+  background-color: #e6c191;
+}
+
+
+.task-form {
+    max-width: 33rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #100322;
+    box-shadow: 0 4px 6px rgba(221, 201, 201, 0.1);
+    border-radius: 0.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    display: block; 
+    color: white;
+    margin-bottom: 0.25rem;
+    font-size: large;
+    font-weight: 600;
+  }
+  
+  .form-input,
+  .form-textarea,
+  .form-select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #4b5563;
+    border-radius: 0.25rem;
+    background-color: #dbd6d6;
+    color: rgb(18, 197, 12);
+    font-weight: 500;
+  }
+  
+  .form-textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.5em;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus,
+  .form-select:focus {
+    outline: none;
+    border-color: #6b7280;
+    background-color: #374151;
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #58084b;
+    color: white;
+    border: none;
+    border-radius: 2.25rem;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    font-weight: 800;
+  }
+  
+  .form-button:hover {
+    background-color: #32d301;
+  }
